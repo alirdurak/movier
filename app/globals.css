@@ -16,5 +16,5 @@ html {
   @apply grid  grid-cols-8;
 }
 body {
-  @apply col-start-2 col-end-7;
+  @apply col-start-2 col-end-8;
 }
