@@ -1,5 +1,5 @@
 .navBar {
-  @apply flex justify-center gap-20 items-center;
+  @apply flex  justify-center gap-3 lg:gap-20 items-center;
 }
 .navItem {
   @apply text-title-gray font-normal text-sm cursor-pointer  
