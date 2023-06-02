@@ -2,5 +2,5 @@
   @apply flex justify-between items-center mt-7;
 }
 .logo {
-  @apply text-orange-light font-bold text-2xl;
+  @apply text-orange-light font-bold text-2xl cursor-pointer hover:border-b-2 hover:border-orange-light transition-all;
 }
