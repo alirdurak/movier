@@ -22,6 +22,7 @@ const popularMovies = async (page) => {
     language: "en-US",
     page,
   });
+
   return data;
 };
 

@@ -8,12 +8,8 @@
   }
 }
 
-html body {
-  @apply bg-background-black;
-}
-
 html {
-  @apply h-full grid grid-cols-[98px_auto_46px];
+  @apply h-full grid-cols-[20px_auto_12px] grid md:grid-cols-[98px_auto_46px] bg-background-black;
 }
 body {
   @apply h-full col-start-2 relative;
