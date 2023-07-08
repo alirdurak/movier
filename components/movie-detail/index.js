@@ -6,6 +6,7 @@ export default function MovieDetail({
   rating = null,
   description = null,
   poster = null,
+  learnMore = null,
 }) {
   return (
     <div>
@@ -21,9 +22,11 @@ export default function MovieDetail({
           <h3 className="text-orange-light text-lg font-bold">Overview</h3>
           <p className="text-title-gray text-base ">{description}</p>
         </div>
-        <h2 className="text-orange-light text-lg font-bold mt-2 cursor-pointer w-32">
-          Learn More...
-        </h2>
+        {learnMore !== null && (
+          <h2 className="text-orange-light text-lg font-bold mt-2 cursor-pointer w-32">
+            Learn More...
+          </h2>
+        )}
       </div>
       <div className=" absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-t from-background-black from-10%  via-background-black/70 via-60% to-background-black/20 to-90%   ">
         <Image
