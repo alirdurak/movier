@@ -1,3 +1,8 @@
+import HomePageContainer from "@/containers/home-page";
 export default function Home() {
-  return <div className="text-title-gray">Home Page</div>;
+  return (
+    <div>
+      <HomePageContainer />
+    </div>
+  );
 }

@@ -1,5 +1,5 @@
 .footer {
-  @apply bg-footer-bg grid grid-cols-5;
+  @apply bg-footer-bg grid grid-cols-5 absolute bottom-0 w-full;
 }
 .logo {
   @apply text-orange-light font-bold text-lg cursor-pointer transition-all col-start-1 col-end-3 md:col-start-2 md:col-end-2;

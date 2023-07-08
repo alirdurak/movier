@@ -22,7 +22,7 @@ const popularMovies = async (page) => {
     language: "en-US",
     page,
   });
-  console.log(data);
+  return data;
 };
 
 export { popularMovies };
