@@ -13,8 +13,8 @@ html body {
 }
 
 html {
-  @apply grid  grid-cols-8;
+  @apply h-full grid grid-cols-[98px_auto_46px];
 }
 body {
-  @apply col-start-2 col-end-8;
+  @apply h-full col-start-2 relative;
 }
