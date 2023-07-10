@@ -28,7 +28,7 @@ export default function MovieDetail({
           </h2>
         )}
       </div>
-      <div className=" absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-t from-background-black from-10%  via-background-black/70 via-60% to-background-black/20 to-90%   ">
+      <div className=" absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-t from-background-black from-10%  via-background-black/70 via-60% to-background-black/40 to-90%   ">
         <Image
           alt={title}
           src={`https://image.tmdb.org/t/p/original${poster}`}
