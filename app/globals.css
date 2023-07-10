@@ -9,8 +9,8 @@
 }
 
 html {
-  @apply h-full grid-cols-[20px_auto_12px] grid md:grid-cols-[98px_auto_46px] bg-background-black;
+  @apply h-full   bg-background-black;
 }
 body {
-  @apply h-full col-start-2 relative;
+  @apply h-full   relative;
 }
