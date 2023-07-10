@@ -10,7 +10,7 @@ export default function MovieDetail({
 }) {
   return (
     <div>
-      <div className="pt-56 absolute z-10">
+      <div className="pt-56 relative z-10">
         <h1 className="text-title-gray text-4xl font-bold">{title} </h1>
         <div className="flex gap-4 mt-5 items-center">
           <span className="text-orange-light flex items-center gap-2">
