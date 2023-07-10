@@ -1,5 +1,5 @@
 .header {
-  @apply flex justify-between items-center mt-7;
+  @apply flex justify-between items-center pt-7 bg-gradient-to-b from-background-black/80 from-30% via-background-black/10 via-90% to-background-black/0 to-100%;
 }
 .logo {
   @apply hidden  md:block text-orange-light font-bold text-2xl cursor-pointer;
