@@ -1,0 +1,9 @@
+.container {
+  @apply bg-background-black/0 w-11/12 h-64 relative    flex items-center justify-center gap-7 select-none;
+}
+.slider {
+  @apply flex gap-4 overflow-hidden flex-nowrap items-center;
+}
+.arrow {
+  @apply text-orange-light text-6xl hover:bg-background-black/60 cursor-pointer h-full  flex items-center justify-center transition-all;
+}

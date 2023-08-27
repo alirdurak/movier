@@ -1,0 +1,12 @@
+.navBar {
+  @apply flex relative z-10  justify-center gap-3 lg:gap-20 items-center;
+}
+.navItem {
+  @apply text-title-gray font-normal text-sm cursor-pointer  
+  p-1
+  border-orange-light
+  hover:border-b-2 transition-all;
+}
+.user {
+  @apply text-content-gray cursor-pointer transition-colors hover:text-orange-light;
+}

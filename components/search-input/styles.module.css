@@ -1,0 +1,9 @@
+.input {
+  @apply text-title-gray bg-background-black rounded-lg  bg-opacity-0  w-full transition-colors focus:outline-none  placeholder:text-title-gray placeholder:opacity-60;
+}
+.search {
+  @apply w-40  flex items-center gap-2 focus-within:border-b-2 focus-within:border-orange-light transition-all;
+}
+.icon {
+  @apply text-orange-light cursor-pointer z-50;
+}

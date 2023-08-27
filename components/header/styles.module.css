@@ -1,0 +1,6 @@
+.header {
+  @apply flex justify-between items-center py-4 bg-gradient-to-b from-background-black/30 from-30% via-background-black/10 via-90% to-background-black/0 to-100% px-40 m-0;
+}
+.logo {
+  @apply hidden relative  md:block text-orange-light font-extrabold text-2xl cursor-pointer z-50;
+}

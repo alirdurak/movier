@@ -1,0 +1,15 @@
+.footer {
+  @apply bg-footer-bg grid grid-cols-5 mt-10   w-full absolute z-50;
+}
+.logo {
+  @apply text-orange-light font-bold text-lg cursor-pointer transition-all col-start-1 col-end-3 md:col-start-2 md:col-end-2;
+}
+.footerItem {
+  @apply flex justify-start  flex-col;
+}
+.footerItem h3 {
+  @apply text-title-gray font-bold text-base;
+}
+.footerItem a {
+  @apply text-content-gray text-sm hover:text-orange-light transition-colors;
+}
