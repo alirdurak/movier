@@ -61,6 +61,10 @@ export default function ContactAndAbout() {
           fellow developers. Feel free to reach out and let's create something
           amazing together!
         </p>
+        <div className="mb-4 text-orange-light">
+          <p>Address: 123 Main Street, City, Country</p>
+          <p>Phone: +123 456 7890</p>
+        </div>
         <div className="mt-4">
           <p className="text-sm text-content-gray">
             Back to
